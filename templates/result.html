@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disease Predictor - Result</title>
+	<style>
+		body {
+			 
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 10px;
+			background-image: url("https://images.pexels.com/photos/15406041/pexels-photo-15406041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+			background-size: cover;
+			background-position: center;
+		}
+		h1 {
+			font-size: 36px;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			color: #fff;
+			text-shadow: 2px 2px #000;
+			text-align: center;
+		}
+		form {
+			background-color: rgba(0, 0, 0, 0.5);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #ccc;
+			max-width: 500px;
+			margin: 0 auto;
+		}
+		p {
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+			margin-top: 50px;
+			text-shadow: 2px 2px #000;
+		}
+	</style>
+</head>
+<body>
+	<h1>Disease Predictor - Result</h1>
+	<form>
+	
+	<p>Leaf in this image is : {{ prediction }}</p>
+		<!-- Form contents go here -->
+	</form>
+</body>
+</html>
+ 
